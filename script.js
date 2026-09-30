@@ -1,7 +1,7 @@
 "use strict";
 
 /* ---------- Config ---------- */
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "https://mindscore-1-j6wd.onrender.com";
 const PREDICT_ENDPOINT = `${API_BASE_URL}/predict`;
 const REQUEST_TIMEOUT_MS = 15000;
 const MAX_SCORE = 10;            // Scale used for the gauge; change if your model uses another range.
